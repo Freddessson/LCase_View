@@ -1,0 +1,84 @@
+/* Font for h1 to h6 */
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* All elements which  have no specific set font: */
+*{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#bgVideo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0px;
+    top: 0px;
+}
+.wrapper{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 15vh;
+}
+
+.contentBox{
+    margin: 0 auto;
+    width: 70%;
+    padding: 2em;
+    padding-bottom: 3em;
+    /* Using shadows to make the form look like it stands out from bg */
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    max-width: 750px;
+}
+
+.inputField{
+    margin-left: 25%;
+    width: 50%;
+    border: 0px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.19);
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+.centerTxt{
+    text-align: center;
+}
+.marginLeft25{
+    margin-left: 25%;
+}
+.marginRight25{
+    margin-right: 25%;
+}
+.floatRight{
+    float: right;
+}
+.redBgTransperant{
+    background-color: rgba(209, 64, 44, 0.7);
+}
+.whiteBgTransperant{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.greenBgTransperant{
+    background-color: rgba(58, 203, 44, 0.7);
+}
+.formBtn{
+    width: 50%;
+    border: 0px;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    display: inline;
+    cursor: pointer;
+}
+/* The box model is used different for the input type="text" and type"submit". */
+/* The solution is to specify them to use the same box-sizing. */
+.boxSizing{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
